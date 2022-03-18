@@ -30,6 +30,11 @@
                 <input class="button is-link button-size" type="submit" value="Gönder">
             </div>
         </form>
+        <article class="message is-danger">
+            <div class="message-body mb-font">
+                Girdiğiniz bilgilerin doğruluğundan emin olunuz!
+            </div>
+        </article>
     </div>
 </template>
 
@@ -44,28 +49,33 @@ export default {
 </script>
 
 <style>
+
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     display: flex;
     flex-direction: column;
-    margin: 10px;
 }
 
 .subtitle-margin {
     margin-top: 1rem;
 }
 
+article {
+    margin-top: 1rem;
+}
+
 @media screen and (max-width: 768px) {
     #app {
-        margin: 10px;
+        margin: 12px;
     }
 
     .button-size {
-        margin-top: 10px;
         width: 100%;
     }   
+
+    .mb-font {
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -74,7 +84,12 @@ export default {
     }
 
     .button-size {
-        margin-top: 10px;
+        width: 18%;
+    }
+
+    .mb-font {
+        font-size: 1rem;
     }
 }
+
 </style>
