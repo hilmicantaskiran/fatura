@@ -45,6 +45,7 @@ export default {
                 this.$router.push('/invoice');
             } else {
                 this.loginCode = '';
+                this.password = '';
                 this.errorMessage = true;
                 setTimeout(() => {
                     this.errorMessage = false;
@@ -88,6 +89,7 @@ export default {
     }
 
     .button-size {
+        margin-top: 6px;
         width: 100%;
     }   
 
@@ -108,6 +110,7 @@ export default {
     }
 
     .button-size {
+        margin-top: 6px;
         width: 18%;
     }
 

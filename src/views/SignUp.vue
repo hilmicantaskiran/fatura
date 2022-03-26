@@ -31,6 +31,11 @@
                     <input class="button is-link button-size" type="submit" value="Gönder">
                 </div>
             </form>
+            <article class="message is-info m-margin">
+                <div class="message-body m-size">
+                    <p>GİB bilgilerinizi girdikten sonra, hesabınızın aktif olması için GİB hesabınıza giriş yapmanız gerekmektedir.</p>
+                </div>
+            </article>
         </div>
     </div>
 </template>
@@ -66,16 +71,25 @@ export default {
     margin-top: 1rem;
 }
 
+.m-margin {
+    margin-top: 1rem;
+}
+
 @media screen and (max-width: 768px) {
     #signup-page {
         margin: 20px;
     }
 
     .button-size {
+        margin-top: 6px;
         width: 100%;
     }   
 
     .mb-font {
+        font-size: 0.8rem;
+    }
+
+    .m-size {
         font-size: 0.8rem;
     }
 }
@@ -87,6 +101,7 @@ export default {
     }
 
     .button-size {
+        margin-top: 6px;
         width: 18%;
     }
 
