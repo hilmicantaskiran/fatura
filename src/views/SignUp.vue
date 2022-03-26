@@ -2,7 +2,7 @@
     <div id="signup-page">
         <div class="container">
             <form method="post">
-                <div class="subtitle subtitle-margin">Kaydolmak için GİB bilgilerini giriniz.</div>
+                <div class="subtitle f-margin">Kaydolmak için GİB bilgilerini giriniz.</div>
                 <div class="field">
                     <label class="label">Ad Soyad</label>
                     <div class="control">

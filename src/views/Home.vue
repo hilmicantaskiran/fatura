@@ -2,7 +2,7 @@
     <div id="home-page">
         <div class="container">
             <form  method="post">
-                <div class="subtitle subtitle-margin">Giriş kodunu giriniz.</div>
+                <div class="subtitle f-margin">Giriş kodunu giriniz.</div>
                 <div class="field">
                     <label class="label">Giriş Kodu</label>
                     <div class="control">
