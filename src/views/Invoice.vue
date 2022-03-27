@@ -4,7 +4,7 @@
             <form method="post">
                 <div class="f-row">
                     <div class="border fatura-width">
-                        <div class="subtitle f-margin">Fatura Bilgileri</div>
+                        <div class="subtitle">Fatura Bilgileri</div>
                         <div class="is-flex-direction-column">
                             <div class="field">
                                 <label class="label">Senaryo</label>
@@ -146,15 +146,26 @@
                 <div class="border b-mobile" style="width: 100%; height: 100px; margin-top: 18px">
                     <p class="subtitle">Toplamlar</p>
                 </div>
+                <div class="border" style="margin-top: 18px">
+                    <div class="subtitle">Not</div>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Textarea"></textarea>
+                    </div>
+                </div>
+                <div class="control is-flex is-justify-content-center mt-2">
+                    <input class="button is-link button-size" type="submit" value="Kaydet">
+                </div>
             </form>
         </div>
     </div>
 </template>
 
 <script>
+
 export default {
     name: 'InvoicePage'
 }
+
 </script>
 
 <style>
@@ -208,10 +219,6 @@ export default {
 
         .fatura-width {
             width: 30%;
-        }
-
-        .f-margin {
-            margin-top: 1rem;
         }
 
         .alici-margin {

@@ -68,10 +68,6 @@ export default {
     margin-right: auto;
 }
 
-.subtitle-margin {
-    margin-top: 1rem;
-}
-
 .signup-router {
     margin-left: 5px;
 }

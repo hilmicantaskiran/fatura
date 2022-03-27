@@ -2,7 +2,7 @@
     <div id="signup-page">
         <div class="container">
             <form method="post">
-                <div class="subtitle f-margin">Kaydolmak için GİB bilgilerini giriniz.</div>
+                <div class="subtitle f-margin">Giriş kodu almak için GİB bilgilerini giriniz.</div>
                 <div class="field">
                     <label class="label">Ad Soyad</label>
                     <div class="control">
@@ -33,7 +33,7 @@
             </form>
             <article class="message is-info m-margin">
                 <div class="message-body m-size">
-                    <p>GİB bilgilerinizi girdikten sonra, hesabınızın aktif olması için GİB hesabınıza giriş yapmanız gerekmektedir.</p>
+                    <p>Bilgileriniz şifrelenerek kayıt edilir.</p>
                 </div>
             </article>
         </div>
@@ -65,10 +65,6 @@ export default {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-.subtitle-margin {
-    margin-top: 1rem;
 }
 
 .m-margin {
